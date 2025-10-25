@@ -3,87 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>أكاديمية العلياء - التعليم التكنولوجي</title>
+    <title>أكاديمية العلياء</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- الهيدر -->
     <header>
-        <nav class="navbar">
-            <div class="logo">
-                <h1>أكاديمية العلياء</h1>
-            </div>
-            <ul class="nav-links">
-                <li><a href="index.html">الرئيسية</a></li>
+        <nav>
+            <h1>أكاديمية العلياء</h1>
+            <ul>
+                <li><a href="#home">الرئيسية</a></li>
                 <li><a href="#courses">الكورسات</a></li>
-                <li><a href="certificate-verify.html">تحقق من الشهادة</a></li>
-                <li><a href="#contact">اتصل بنا</a></li>
+                <li><a href="#certificate">الشهادات</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- قسم الهيرو -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>أكاديمية العلياء للتعليم التكنولوجي</h1>
-            <p>نحو مستقبل تقني متطور</p>
-            <a href="#courses" class="cta-button">استعرض الكورسات</a>
-        </div>
+    <section id="home">
+        <h2>مرحباً بك في أكاديمية العلياء</h2>
+        <p>أكاديمية متخصصة في التعليم التكنولوجي</p>
+        <button>استعرض الكورسات</button>
     </section>
 
-    <!-- قسم الكورسات -->
-    <section id="courses" class="courses">
-        <h2>الكورسات المتاحة</h2>
-        <div class="course-grid">
-            <!-- كورس 1 -->
-            <div class="course-card" onclick="location.href='course-arduino.html'">
-                <h3>كورس الأردوينو الشامل</h3>
-                <p>تعلم برمجة وتصميم مشاريع الأردوينو من الصفر للإحتراف</p>
-            </div>
-            
-            <!-- كورس 2 -->
-            <div class="course-card" onclick="location.href='course-drones-piloting.html'">
-                <h3>كورس قيادة المسيرات</h3>
-                <p>إتقان قيادة الدرونز بأنواعها المختلفة</p>
-            </div>
-            
-            <!-- كورس 3 -->
-            <div class="course-card" onclick="location.href='course-drones-building.html'">
-                <h3>كورس صنع المسيرات من الصفر</h3>
-                <p>تعلم بناء الدرونز من المكونات الأساسية</p>
-            </div>
-            
-            <!-- كورس 4 -->
-            <div class="course-card" onclick="location.href='course-robotics.html'">
-                <h3>كورس صنع الروبوتات مستوى احترافي</h3>
-                <p>تصميم وبرمجة الروبوتات المتقدمة</p>
-            </div>
-            
-            <!-- كورس 5 -->
-            <div class="course-card" onclick="location.href='course-solidworks.html'">
-                <h3>كورس سوليد ووركس</h3>
-                <p>إحتراف التصميم الميكانيكي ثلاثي الأبعاد</p>
-            </div>
-            
-            <!-- كورس 6 -->
-            <div class="course-card" onclick="location.href='course-3d-design.html'">
-                <h3>كورس التصميم والطباعة ثلاثية الأبعاد</h3>
-                <p>تعلم التصميم ثلاثي الأبعاد والطباعة</p>
-            </div>
+    <section id="courses">
+        <h2>كورساتنا</h2>
+        <div class="course">
+            <h3>كورس الأردوينو</h3>
+            <p>تعلم برمجة الأردوينو من الصفر</p>
         </div>
-    </section>
-
-    <!-- قسم التحقق من الشهادات -->
-    <section class="certificate-section">
-        <div class="certificate-content">
-            <h2>تحقق من شهادتك</h2>
-            <p>أدخل الرقم التسلسلي للتحقق من صحة الشهادة</p>
-            <a href="certificate-verify.html" class="cta-button-secondary">تحقق الآن</a>
+        <div class="course">
+            <h3>كورس المسيرات</h3>
+            <p>تعلم قيادة وصنع الدرونز</p>
         </div>
     </section>
 
     <footer>
-        <p>© 2024 أكاديمية العلياء. جميع الحقوق محفوظة.</p>
+        <p>تواصل معنا: example@email.com</p>
     </footer>
 
     <script src="script.js"></script>
